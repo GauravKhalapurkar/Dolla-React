@@ -2,6 +2,8 @@ import React from "react";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
+import Developers from "./components/Developers";
+import Subscribe from "./components/Subscribe";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Developers />
+      <Subscribe />
     </div>
   );
 }
